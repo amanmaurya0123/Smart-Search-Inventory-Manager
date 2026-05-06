@@ -1,4 +1,4 @@
-
+# Smart Search Inventory Manager
 
 An AI-powered inventory management system with semantic search capabilities. Users can search for items using natural language queries instead of exact keywords, making inventory discovery intuitive and intelligent.
 
@@ -12,7 +12,7 @@ An AI-powered inventory management system with semantic search capabilities. Use
 - ** Category Filtering**: Organize and filter items by categories
 - ** Analytics**: View inventory statistics and insights
 
-## Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Node.js** + **Express.js**
@@ -26,7 +26,7 @@ An AI-powered inventory management system with semantic search capabilities. Use
 - **Axios** for API calls
 - **Responsive Design**
 
-## Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -136,7 +136,7 @@ Try these natural language queries:
 2. Filter by category or search within items
 3. View item details and similarity scores
 
-## Project Structure
+##  Project Structure
 
 ```
 Smart Search Inventory Manager/
@@ -167,7 +167,7 @@ Smart Search Inventory Manager/
 └── README.md
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Search
 - `POST /api/search` - Semantic search with natural language
@@ -182,9 +182,6 @@ Smart Search Inventory Manager/
 - `DELETE /api/items/:id` - Delete item
 - `GET /api/items/stats/summary` - Get inventory statistics
 
-### Health Check
-- `GET /health` - API health status
-
 ## How It Works
 
 1. **Embedding Generation**: When items are added, the system generates vector embeddings using OpenAI's text-embedding-3-small model
@@ -192,7 +189,7 @@ Smart Search Inventory Manager/
 3. **Similarity Scoring**: Cosine similarity calculates relevance scores between query and items
 4. **Ranking**: Results are ranked by similarity score and displayed with confidence indicators
 
-## Search Algorithm
+##  Search Algorithm
 
 The semantic search uses:
 
