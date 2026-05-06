@@ -8,7 +8,13 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ai", "search", "inventory", "semantic", "openai"],
+  "keywords": [
+    "ai",
+    "search",
+    "inventory",
+    "semantic",
+    "openai"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -17,7 +23,7 @@
     "dotenv": "^16.3.1",
     "cors": "^2.8.5",
     "axios": "^1.6.2",
-    "openai": "^4.20.1"
+    "cohere-ai": "^7.9.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
